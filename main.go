@@ -73,6 +73,8 @@ func main() {
 	problemMap["day01"] = &problems.Day01{}
 	problemMap["day02"] = &problems.Day02{}
 	problemMap["day03"] = &problems.Day03{}
+	problemMap["day04"] = &problems.Day04{}
+	problemMap["day05"] = &problems.Day05{}
 
 	if problemName == "all" {
 		runAll(problemMap)
