@@ -11,6 +11,7 @@ import (
 	"alexi.ch/aoc/2015/problems"
 	"alexi.ch/aoc/2015/problems/day01"
 	"alexi.ch/aoc/2015/problems/day02"
+	"alexi.ch/aoc/2015/problems/day03"
 )
 
 func main() {
@@ -18,7 +19,7 @@ func main() {
 	var problem_map = map[string](func() problems.Problem){
 		"01": func() problems.Problem { p := day01.New(); return &p },
 		"02": func() problems.Problem { p := day02.New(); return &p },
-		// "03":         func() problems.Problem { p := day03.New(); return &p },
+		"03": func() problems.Problem { p := day03.New(); return &p },
 		// "04":         func() problems.Problem { p := day04.New(); return &p },
 		// "05":         func() problems.Problem { p := day05.New(); return &p },
 		// "06":         func() problems.Problem { p := day06.New(); return &p },
